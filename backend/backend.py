@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = HfApiModel(token="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")
+model = HfApiModel(token="api_key")
 
 agent = CodeAgent(
     tools=[DuckDuckGoSearchTool()],
